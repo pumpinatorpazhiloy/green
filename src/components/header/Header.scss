@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.header {
+	padding: 3.3rem 0rem 3.6rem 0rem;
+	&__menu {
+		
+	}
+
+	&__logo {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 10rem auto 12.5rem;
+	align-items: center;
+	@media (max-width: 991px) {
+		grid-template-columns: 10rem auto 12.5rem;
+	}
+	&__logo {
+		padding-right: 1rem;
+		transform: translate(0rem, -.4rem);
+	}
+
+	&__title {
+		font-family: serif;
+		font-size: 1.75rem;
+		font-weight: 900;
+		color: #fff;
+		opacity: .75;
+		font-family: "Inter";
+	}
+
+	&__body {
+		margin: 0 auto;
+		@media (max-width: 991px) {
+			display: none;
+		}
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: row;
+		gap: 61px;
+	}
+
+	&__item {
+		transition: all .3s;
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	&__link {
+		font-weight: 500;
+	}
+
+	&__icons {
+		img {
+			width: 1.5rem;
+			height: 1.5rem;
+		}
+	}
+}
+
+.icons {
+	display: flex;
+	gap: 4rem;
+	@media (max-width: 991px) {
+		justify-content: end;
+		grid-column: 3;
+		
+	}
+	@media (max-width: 768px){
+		gap: 3rem;
+	}
+	&__search {
+	}
+
+	&__shoppingCart {
+	}
+
+	&__burger {
+	}
+}
+
+
