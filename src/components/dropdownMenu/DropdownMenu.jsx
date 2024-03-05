@@ -1,10 +1,8 @@
-
-
 const DropdownMenu = ({children}) => {
 	return (
 		<>
-			<nav className="navbar">
-				<ul className="navbar__nav nav">
+			<nav className="menu__body">
+				<ul className="menu__list">
 					{children}
 				</ul>
 			</nav>

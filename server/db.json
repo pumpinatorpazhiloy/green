@@ -1,0 +1,18 @@
+{
+	"reviews": [
+		{
+			"id": 1,
+			"image": "../src/img/dataJson/1.png",
+			"name": "alena Patel",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...вую!",
+			"rating": 5
+		},
+		{
+			"id": 2,
+			"image": "../src/img/dataJson/2.png",
+			"name": "Paterl Glek",
+			"text": "Hey!",
+			"rating": 4
+		}
+	]
+}

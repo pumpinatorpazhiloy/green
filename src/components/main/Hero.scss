@@ -1,0 +1,88 @@
+.hero {
+
+	&__columns {
+	}
+
+	&__column {
+	}
+}
+
+.left-col {
+	margin-top: 7rem;
+	opacity: 0.75;
+
+	&__text {
+		max-width: 56.25rem;
+		padding-bottom: 1.5rem;
+	}
+
+	&__title {
+		padding-bottom: .8rem;
+		font-weight: 600;
+		font-size: 7.375rem;
+		transform: translateX(-0.5rem);
+	}
+
+	&__p {
+		font-size: 1.4375rem;
+		font-weight: 500;
+	}
+
+	&__buttons {
+	}
+
+	&__reviews {
+	}
+}
+
+.btn {
+	display: flex;
+	&__explore {
+		margin-right: 2.2rem;
+	}
+
+	&__play {
+		display: flex;
+		align-items: center;
+		img {
+			margin-right: 1rem;
+			width: 4rem;
+			height: 4rem;
+		}
+		span {
+			font-size: 1.25rem;
+		}
+	}
+}
+
+.explore {
+	border-radius: .75rem;
+	border: 2px solid #fff;
+	padding: 15px 60px;
+	span {
+		color: #fff;
+		font-weight: 400;
+		font-size: 1.75rem;
+	}
+}
+
+.review {
+
+	&__item {
+	}
+
+	&__img {
+	}
+
+	&__name {
+	}
+
+	&__stars {
+	}
+
+	&__text {
+	}
+}
+
+.right-col {
+}
