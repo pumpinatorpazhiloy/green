@@ -1,0 +1,40 @@
+.swiper-slide {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-pagination-bullet {
+	transform: translateX(-1.5rem);
+	background-color: #fff;
+	color: #fff;
+}
+
+.content__wrapper {
+	display: flex;
+	flex-direction: column;
+	transform: translateY(-3.5rem);
+	padding-top: 70px;
+}
+
+.swiper {
+	overflow-y: visible;
+	max-width: 28.6875rem;
+}
+.swiper-content {
+	padding-top: 3.5rem;
+	color: rgba(255, 255, 255, 0.75);
+	opacity: .75;
+	&__p {
+		font-size: 1.4375rem;
+		padding-bottom: 1.5rem;
+	}
+
+	&__title {
+		font-size: 2.375rem;
+		padding-bottom: 1.8rem;
+	}
+
+	&__btn {
+	}
+}

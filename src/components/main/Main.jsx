@@ -17,18 +17,24 @@ const Main = () => {
 		}
 	}, []);
 
+	const getRandomData = () => {
+		if (data.length === 0) {
+		  return null;
+		}
+		const randomIndex = Math.floor(Math.random() * data.length); 
+		return data[randomIndex];
+	};
+
 	useEffect(() => {
 		fetchData();
 	}, []);
 
-	console.log(data)
-	 
 	return(
 		<>
 			<main className="main">
 				<div className="container">
 					<div className="main__content">
-						<Hero data={data}/>
+						<Hero data={getRandomData()}/>
 						<Trendy/>
 					</div>
 				</div>
