@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .swiper-pagination-bullet {
@@ -13,8 +14,22 @@
 .content__wrapper {
 	display: flex;
 	flex-direction: column;
-	transform: translateY(-3.5rem);
-	padding-top: 70px;
+	img {
+		width: 365px;
+	}
+	padding-bottom: 1rem;
+	&_long {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 3rem;
+		img {
+			width: 365px;
+		}
+	}
+}
+
+.slide-long {
+	// padding-bottom: 3rem;
 }
 
 .swiper {
@@ -37,4 +52,14 @@
 
 	&__btn {
 	}
+}
+
+.swiper-wrap {
+		margin-left: 13rem;
+		max-width: 32.4rem;
+		border-radius: 2.8rem;
+		border: 3px solid rgba(255, 255, 255, 0.5);
+		backdrop-filter: blur(20.2px);
+		background: rgba(255, 255, 255, 0.05);
+		padding: 0rem 2.0625rem 2.0625rem 4.5rem;
 }

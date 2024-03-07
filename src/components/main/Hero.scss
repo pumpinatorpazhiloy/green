@@ -1,8 +1,10 @@
-.hero {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+.hero {
+	font-family: 'Inter', sans-serif;
 	&__columns {
 		display: grid;
-		grid-template-columns: 56.25rem auto;
+		grid-template-columns: minmax(20rem, 56.25rem) auto;
 	}
 
 	&__column {
@@ -12,9 +14,11 @@
 .left-col {
 	margin-top: 7rem;
 	opacity: 0.75;
-
 	&__content {
 		margin-bottom: 15.5rem;
+		@media (max-width: 991px){
+			margin-bottom: 5rem;
+		}
 	}
 
 	&__text {
@@ -111,6 +115,9 @@
 	backdrop-filter: blur(20.2px);
 	background: rgba(255, 255, 255, 0.05);
 	padding: 2.8rem 3rem 3.4rem 3rem;
+	@media (max-width: 991px){
+		  margin: 0 auto;
+	}
 	&__item {
 		display: flex;
 		align-items: center;
@@ -153,6 +160,7 @@
 
 .right-col {
 	&__slider {
+		height: 757px;
 		margin-left: 13rem;
 		max-width: 32.4rem;
 		border-radius: 2.8rem;
@@ -160,5 +168,13 @@
 		backdrop-filter: blur(20.2px);
 		background: rgba(255, 255, 255, 0.05);
 		padding: 0rem 2.0625rem 2.0625rem 4.5rem;
+		@media (max-width: 1100px){
+			margin-left: 12rem;
+			max-width: 30rem;
+			padding: 0rem 1rem 2.0625rem 2rem;
+		}
+		@media (max-width: 991px){
+			  display: none;
+		}
 	}
 }

@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
 body {
   margin: 0;
   color: #fff;
-  font-family: 'Inter';
   color: #fff;
   line-height: 1;
   background: #1B2316;
+  font-family: 'Inter', sans-serif;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -39,7 +40,7 @@ a:active {
 html,
 body {
 	height: 100%;
-	font-family: "Inter",sans-serif;
+	font-family: Roboto;
 }
 
 input,
