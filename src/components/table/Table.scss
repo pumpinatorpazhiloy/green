@@ -1,0 +1,105 @@
+.table {
+	border-radius: 9.375rem;
+	border: 3px solid rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(20.2px);
+	background: rgba(255, 255, 255, 0.05);
+	padding: 7.6875rem 0rem;
+	margin-bottom: 8rem;
+	&__content {
+		display: grid;
+		grid-template-columns: 40.625rem auto;
+		&_f {
+			
+		}
+	}
+
+	&__image {
+		position: relative;
+		transform: translateY(-260px);
+		padding-left: 2.0625rem;
+		img {
+			position: absolute;
+		}
+	}
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		max-width: 45.625rem;
+		margin: 0 auto;
+		padding-left: 6rem;
+	}
+
+	&__title {
+		font-size: 2.375rem;
+		font-weight: 600;
+		padding-bottom: 2rem;
+	}
+
+	&__p {
+		font-size: 1.25rem;
+		font-weight: 600;
+		padding-bottom: 2rem;
+	}
+
+	&__price {
+		font-size: 2.375rem;
+		font-weight: 600;
+		padding-bottom: 2rem;
+	}
+
+	&__btns {
+		display: flex;
+		flex-direction: row;
+		gap: 2rem;
+	}
+
+	&__btn {
+
+		&_explore {
+		}
+
+		&_buy {
+			border-radius: .75rem;
+			border: 2px solid #fff;
+			padding: .875rem;
+			transition: all .3s;
+			img {
+				width: 34px;
+				height: 34px;	
+			}
+			&:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+		}
+	}
+}
+
+.table-f {
+	border-radius: 9.375rem;
+	border: 3px solid rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(20.2px);
+	background: rgba(255, 255, 255, 0.05);
+	padding: 7.6875rem 0rem;
+	&__content {
+		display: grid;
+		grid-template-columns: auto 40.625rem;
+	}
+	&__image {
+		position: relative;
+		transform: translate(80px,-225px);
+		padding-left: 2.0625rem;
+		grid-column: 2;
+		img {
+			position: absolute;
+		}
+	}
+	&__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		max-width: 45.625rem;
+		margin: 0 auto;
+	}
+}

@@ -1,7 +1,7 @@
-import Slider from "../slider/Slider";
+import Slider from "../../slider/Slider";
 
-import playBtn from "../../img/hero/playBtn.png";
-import StarRating from "../starRating/starRating";
+import playBtn from "../../../img/hero/playBtn.png";
+import StarRating from "../../starRating/starRating";
 
 import "./Hero.scss";
 

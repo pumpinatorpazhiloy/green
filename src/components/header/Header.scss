@@ -14,9 +14,16 @@
 	}
 }
 
+
+.lock {
+	overflow: hidden;
+	touch-action: none;
+	overscroll-behavior: none;
+}
+
 .menu {
 	display: grid;
-	grid-template-columns: 10rem auto 12.5rem;
+	grid-template-columns: 10rem auto 112px;
 	align-items: center;
 	@media (max-width: 991px) {
 		grid-template-columns: 10rem auto 12.5rem;
@@ -46,19 +53,6 @@
 		display: flex;
 		flex-direction: row;
 		gap: 61px;
-			// &:after {
-			// 	content: '';
-			// 	border-color: #999 transparent transparent;
-			// 	border-style: solid;
-			// 	border-width: 5px 5px 0;
-			// 	content: ' ';
-			// 	display: block;
-			// 	height: 0;
-			// 	margin-top: -ceil(2.5);
-			// 	left: 740px;
-			// 	top: 75px;
-			// 	width: 0
-			// }
 	}
 
 	&__item {
@@ -73,6 +67,7 @@
 	}
 
 	&__icons {
+		justify-self: start;
 		img {
 			width: 1.5rem;
 			height: 1.5rem;
@@ -101,4 +96,64 @@
 	}
 }
 
+.bm-burger-button {
+	position: fixed;
+	width: 31px;
+	height: 12px;
+	right: 20px;
+	top: 70px;
+	display: none;
+	@media (max-width: 991px){
+		display: block;
+	}
+}
+ 
+.bm-burger-bars {
+	background: #373a47;
+}
+ 
+.bm-burger-bars-hover {
+	background: #a90000;
+}
+ 
+.bm-cross-button {
+	height: 24px;
+	width: 24px;
+}
+ 
+.bm-cross {
+	background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+	position: fixed;
+	height: 100%;
+}
+ 
+.bm-menu {
+	backdrop-filter: blur(20.2px);
+	background: rgba(255, 255, 255, 0.05);
+	padding: 2.5em 1.5em 0;
+	font-size: 1.15em;
+}
+ 
+.bm-morph-shape {
+	fill: #373a47;
+}
+ 
+.bm-item-list {
+	color: #b8b7ad;
+	padding: 0.8em;
+	
+}
+ 
+.bm-item {
+	display: inline-block;
+	padding-bottom: 2rem;
+	font-size: 2rem;
+}
+ 
+.bm-overlay {
+	background: rgba(0, 0, 0, 0.3);
+}
 

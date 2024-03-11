@@ -2,6 +2,7 @@
 
 .hero {
 	font-family: 'Inter', sans-serif;
+	padding-bottom: 5rem;
 	&__columns {
 		display: grid;
 		grid-template-columns: minmax(20rem, 56.25rem) auto;
@@ -14,6 +15,9 @@
 .left-col {
 	margin-top: 7rem;
 	opacity: 0.75;
+	@media (max-width: 771px){
+		margin-top: 3rem;
+	}
 	&__content {
 		margin-bottom: 15.5rem;
 		@media (max-width: 991px){
@@ -31,14 +35,26 @@
 		font-weight: 600;
 		font-size: 7.375rem;
 		transform: translateX(-0.5rem);
+		@media (max-width: 771px){
+			font-size: 5.5rem;
+		}
 	}
 
 	&__p {
-		font-size: 1.4375rem;
+		font-size: 1.5rem;
 		font-weight: 500;
+		@media (max-width: 771px){
+			font-size: 1.25rem;
+		}
 	}
 
 	&__buttons {
+		@media (max-width: 771px){
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
 	}
 
 	&__reviews {
@@ -49,6 +65,9 @@
 	display: flex;
 	&__explore {
 		margin-right: 2.2rem;
+		@media (max-width: 771px){
+			margin: 0rem 0rem 2rem 0rem;
+		}
 	}
 
 	&__play {

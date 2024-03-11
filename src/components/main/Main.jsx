@@ -1,7 +1,8 @@
 import { useState, useEffect, useMemo } from "react";
 
-import Hero from "./Hero";
-import Trendy from "./Trendy";
+import Hero from "./hero/Hero";
+import Trendy from "./trendy/Trendy";
+import TopSelling from "./top-selling/TopSelling";
 
 const Main = () => {
 
@@ -36,6 +37,7 @@ const Main = () => {
 					<div className="main__content">
 						<Hero data={getRandomData()}/>
 						<Trendy/>
+						<TopSelling/>
 					</div>
 				</div>
 			</main>

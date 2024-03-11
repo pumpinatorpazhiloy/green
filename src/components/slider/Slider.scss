@@ -6,9 +6,17 @@
 }
 
 .swiper-pagination-bullet {
+	transition: all .3s;
 	transform: translateX(-1.5rem);
 	background-color: #fff;
 	color: #fff;
+	width: 7px;
+	height: 6px;
+}
+
+.swiper-pagination-bullet-active {
+	width: 20px;
+	border-radius: 5px;
 }
 
 .content__wrapper {
@@ -28,14 +36,11 @@
 	}
 }
 
-.slide-long {
-	// padding-bottom: 3rem;
-}
-
 .swiper {
 	overflow-y: visible;
 	max-width: 28.6875rem;
 }
+
 .swiper-content {
 	padding-top: 3.5rem;
 	color: rgba(255, 255, 255, 0.75);
