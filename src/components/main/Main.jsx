@@ -4,6 +4,8 @@ import Hero from "./hero/Hero";
 import Trendy from "./trendy/Trendy";
 import TopSelling from "./top-selling/TopSelling";
 
+import './Main.scss'
+
 const Main = () => {
 
 	const [data, setData] = useState([])

@@ -18,8 +18,6 @@ export default () => {
 			navigation
 	      slidesPerView={1}
 			pagination={{ clickable: true }}
-	      onSlideChange={() => console.log('slide change')}
-	      onSwiper={(swiper) => console.log(swiper)}
 	    >
 	      <SwiperSlide>
 				<div className="content__wrapper">
