@@ -1,4 +1,5 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect } from "react";
+import useFetchData from "../../hooks/fetchData";
 
 import Hero from "./hero/Hero";
 import Trendy from "./trendy/Trendy";
@@ -10,15 +11,7 @@ const Main = () => {
 
 	const [data, setData] = useState([])
 
-	const fetchData = useMemo(() => async () => {
-		try {
-		  const response = await fetch('http://localhost:3001/reviews');
-		  const jsonData = await response.json();
-		  setData(jsonData)
-		} catch (error) {
-		  console.error('Error', error);
-		}
-	}, []);
+	const {fetchReviews} = useFetchData();
 
 	const getRandomData = () => {
 		if (data.length === 0) {
@@ -28,8 +21,13 @@ const Main = () => {
 		return data[randomIndex];
 	};
 
+	const getReview = async () => {
+		const data = await fetchReviews();
+		setData(data);
+	}
+
 	useEffect(() => {
-		fetchData();
+		getReview();
 	}, []);
 
 	return(
