@@ -1,10 +1,17 @@
 .top-selling {
-	padding-top: 6.5rem;
+	padding: 6.5rem 0rem 12rem 0rem;
+	@media (max-width: 771px){
+		padding: 0rem 0rem 4rem 0rem;
+	}
 	&__content {
 	}
 
 	&__title {
 		margin-bottom: 4.2rem;
+		padding-bottom: 4.2rem;
+		@media (max-width: 771px){
+			margin-bottom: 3rem;
+		}
 	}
 
 	&__items {
@@ -26,12 +33,22 @@
 .selling-item {
 	position: relative;
 	transition: all .3s;
+	@media (max-width: 771px){
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 	&:before {
 		content: "";
 		position: absolute;
-		background: url('../top-selling/asd.svg') center no-repeat;
+		background: url('../../../img/top-selling/bg.svg') center no-repeat;
 		width: 100%;
 		height: 100%;
+		@media (max-width: 771px){
+			background: url('../../../img/top-selling/bg.svg') center / 90% no-repeat;
+			width: 84%;
+			height: 84%; 
+		}
 	}
 	&:hover {
 		transform: scale(1.01);
@@ -39,6 +56,9 @@
 
 	&__wrapper {
 		transform: translateY(-100px);
+		@media (max-width: 771px){
+			  max-width: 300px;
+		}
 	}
 
 	&__image {
@@ -47,9 +67,18 @@
 		position: relative;
 		width: 28.6875rem;
 		height: 28.6875rem;
+		@media (max-width: 771px){
+			width: 22rem;
+			height: 22rem;
+			transform: translateX(15px);
+		}
 		img {
 			width: 90%;
 			height: 90%;
+			@media (max-width: 771px){
+				width: 80%;
+				height: 80%; 
+			}
 		}
 	}
 
@@ -62,16 +91,27 @@
 	&__title {
 		font-size: 2.375rem;
 		padding-bottom: 2.9rem;
+		@media (max-width: 771px){
+			font-size: 1.9rem;
+			padding-bottom: 2.4rem;
+		}
 	}
 
 	&__p {
 		font-size: 1.5rem;
 		padding-bottom: 2.9rem;
+		@media (max-width: 771px){
+			font-size: 1.2rem;
+			padding-bottom: 2.4rem;
+		}
 	}
 
 	&__price {
 		font-size: 2.375rem;
 		align-self: center;
+		@media (max-width: 771px){
+			font-size: 2.4rem;
+		}
 	}
 
 	&__row {

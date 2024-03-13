@@ -1,9 +1,15 @@
 .trendy {
 	padding-bottom: 9.5rem;
+	@media (max-width: 771px){
+		padding-bottom: 4rem;
+	}
 	&__content {
 	}
 
 	&__title {
-		
+		margin-bottom: 8rem;
+		@media (max-width: 771px){
+			margin-bottom: 4rem;
+		}
 	}
 }

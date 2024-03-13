@@ -1,0 +1,119 @@
+.customer-review {
+	padding-bottom: 10rem;
+	@media (max-width: 771px){
+		padding-bottom: 4rem;
+	}
+	&__content {
+	}
+
+	&__title {
+		margin-bottom: 8.7rem;
+		padding-bottom: 4.2rem;
+		@media (max-width: 771px){
+			margin-bottom: 0rem;
+		}
+	}
+
+	&__review {
+	}
+}
+
+.review-customer {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px ,512px));
+	gap: 2.68rem;
+	justify-content: center;
+	&__item {
+		position: relative;
+		width: 512px;
+		height: 500px;
+		@media (max-width: 771px){
+			width: 385px;
+			height: 355px;
+			align-items: center;
+			width: 100%;
+		}
+		&:before {
+			content: "";
+			position: absolute;
+			background: url('../../../img/customer-review/bg.svg') center / 550px 508px no-repeat;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			@media (max-width: 771px){
+				background: url('../../../img/customer-review/bg.svg') center / 385px 355px no-repeat;
+			}
+		}
+	}
+
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		padding: 0rem 3.75rem 0rem 3.75rem;
+		justify-content: center;
+		height: 100%;
+		transform: translateY(-40px);
+		@media (max-width: 771px){
+			padding: 0rem;
+			align-items: center;
+		}
+	}
+
+	&__content {
+		display: flex;
+		max-width: 25.1875rem;
+		margin-bottom: 4rem;
+		@media (max-width: 771px){
+			max-width: 24.0625rem;
+			margin-bottom: 2rem;
+		}
+	}
+
+	&__img {
+		padding-right: 2.5rem;
+		img {
+			width: 6rem;
+			height: 6rem;
+			border-radius: 50%;
+			object-fit: cover;
+			box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.04), 0 7px 5px 0 rgba(0, 0, 0, 0.06), 0 13px 10px 0 rgba(0, 0, 0, 0.08), 0 22px 18px 0 rgba(0, 0, 0, 0.09), 0 42px 33px 0 rgba(0, 0, 0, 0.11), 0 100px 80px 0 rgba(0, 0, 0, 0.15);
+			@media (max-width: 771px){
+				width: 5rem;
+				height: 5rem;
+			}
+		}
+	}
+
+	&__info {
+		display: grid;
+		align-items: center;
+	}
+
+	&__name {
+		font-weight: 600;
+		font-size: 2.375rem;
+		padding-bottom: 0.5rem;
+		@media (max-width: 771px){
+			font-size: 1.7rem;
+		}
+	}
+
+	&__stars {
+		font-size: 1.5rem;
+		@media (max-width: 771px){
+			font-size: 1rem;
+		}
+	}
+
+	&__text {
+		font-size: 1.5rem;
+		opacity: .75;
+		max-width: 25.1875rem;
+		@media (max-width: 771px){
+			font-size: 1.3rem;
+			max-width: 15rem;
+		}
+	}
+}
+

@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-
 .header {
-	font-family: Inter;
 	padding: 3.3rem 0rem 3.6rem 0rem;
-	z-index: 1000;
+	z-index: 100;
+	@media (max-width: 48.1875rem){
+		padding-top: 2rem;
+	}
 	&__menu {
 		
 	}
@@ -98,6 +97,7 @@
 }
 
 .bm-burger-button {
+	z-index: 1001;
 	position: fixed;
 	width: 31px;
 	height: 12px;
@@ -106,11 +106,13 @@
 	display: none;
 	@media (max-width: 991px){
 		display: block;
+		top: 50px;
 	}
 }
  
 .bm-burger-bars {
 	background: #373a47;
+	z-index: 1001;
 }
  
 .bm-burger-bars-hover {

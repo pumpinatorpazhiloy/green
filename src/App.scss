@@ -110,16 +110,21 @@ h6 {
 	text-align: center;
 	font-weight: 600;
 	font-size: 3.4375rem;
-	padding-bottom: 8.5rem;
 	&:before {
 		content: url('../src/img/trendy/1.png');
 		position: absolute;
 		transform: rotate(180deg) translateX(35px);
+		@media (max-width: 771px){
+			display: none;
+		}
 	}
 	&:after {
 		content: url('../src/img/trendy/1.png');
 		position: absolute;
 		transform: translate(-40px, -23px);
+		@media (max-width: 771px){
+			display: none;
+		}
 	}
 }
 //////////////////////////////////////////////////////////////////////////////

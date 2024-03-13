@@ -4,6 +4,8 @@ import useFetchData from "../../hooks/fetchData";
 import Hero from "./hero/Hero";
 import Trendy from "./trendy/Trendy";
 import TopSelling from "./top-selling/TopSelling";
+import CustomerReview from "./customer-review/CustomerReview";
+import Best02 from "./best02/Best02";
 
 import './Main.scss'
 
@@ -38,6 +40,8 @@ const Main = () => {
 						<Hero data={getRandomData()}/>
 						<Trendy/>
 						<TopSelling/>
+						<CustomerReview data={getRandomData()}/>
+						<Best02/>
 					</div>
 				</div>
 			</main>

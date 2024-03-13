@@ -30,16 +30,6 @@ export default () => {
 				</div>
 			</SwiperSlide>
 	      <SwiperSlide>
-				<div className="content__wrapper_long">
-					<img src={second} alt="flower"/>
-					<div className="swiper__content swiper-content">
-						<p className="swiper-content__p">Trendy House Plant</p>
-						<h2 className="swiper-content__title">Calathea plant</h2>
-						<button className="swiper-content__btn explore_b"><span>Buy Now</span></button>
-					</div>
-				</div>
-			</SwiperSlide>
-	      <SwiperSlide>
 				<div className="content__wrapper">
 					<img src={third} alt="flower"/>
 					<div className="swiper__content swiper-content">

@@ -3,8 +3,6 @@ import useFetchData from '../../../hooks/fetchData';
 
 import cart from "../../../img/header/cart.png"
 
-import asd from "./asd.svg"
-
 import './TopSelling.scss'
 const TopSelling = () => {
 
