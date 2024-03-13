@@ -2,9 +2,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 
 import first from "../../img/slider/1.png";
-import second from "../../img/slider/2.png";
-import third from "../../img/slider/3.png";
-import fourth from "../../img/slider/4.png";
+import second from "../../img/slider/3.png";
+import third from "../../img/slider/4.png";
 import 'swiper/css';
 import './Slider.scss'
 import 'swiper/css/pagination';
@@ -13,13 +12,14 @@ import 'swiper/css/scrollbar';
 export default () => {
   return (
    	 <Swiper
+	      className="swiper"
 		 	modules={[Pagination]}
 	      spaceBetween={0}
 			navigation
 	      slidesPerView={1}
 			pagination={{ clickable: true }}
 	    >
-	      <SwiperSlide>
+	      <SwiperSlide className="swiper__slide">
 				<div className="content__wrapper">
 					<img src={first} alt="flower"/>
 					<div className="swiper__content swiper-content">
@@ -29,9 +29,9 @@ export default () => {
 					</div>
 				</div>
 			</SwiperSlide>
-	      <SwiperSlide>
+	      <SwiperSlide className="swiper__slide">
 				<div className="content__wrapper">
-					<img src={third} alt="flower"/>
+					<img src={second} alt="flower"/>
 					<div className="swiper__content swiper-content">
 						<p className="swiper-content__p">Trendy House Plant</p>
 						<h2 className="swiper-content__title">Calathea plant</h2>
@@ -39,9 +39,9 @@ export default () => {
 					</div>
 				</div>
 			</SwiperSlide>
-	      <SwiperSlide>
+	      <SwiperSlide className="swiper__slide">
 				<div className="content__wrapper">
-					<img src={fourth} alt="flower"/>
+					<img src={third} alt="flower"/>
 					<div className="swiper__content swiper-content">
 						<p className="swiper-content__p">Trendy House Plant</p>
 						<h2 className="swiper-content__title">Calathea plant</h2>
