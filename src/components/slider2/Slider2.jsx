@@ -23,7 +23,7 @@ const Slider2 = () => {
 					<div className="swiper2__wrapper">
 						<img src={first} className="swiper2__image" alt="flower"/>
 						<div className="swiper2__content swiper2-content">
-							<h2 className="swiper2-content__title">We Have Small And Best O2 Plants Collection’s</h2>
+							<h3 className="swiper2-content__title">We Have Small And Best O2 Plants Collection’s</h3>
 							<p className="swiper2-content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 							<p className="swiper2-content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 							<button className="swiper2-content__btn explore_b"><span>Explore</span></button>
@@ -34,7 +34,7 @@ const Slider2 = () => {
 				<div className="swiper2__wrapper">
 						<img src={first} className="swiper2__image" alt="flower"/>
 						<div className="swiper2__content swiper2-content">
-							<h2 className="swiper2-content__title">We Have Small And Best O2 Plants Collection’s</h2>
+							<h3 className="swiper2-content__title">We Have Small And Best O2 Plants Collection’s</h3>
 							<p className="swiper2-content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 							<p className="swiper2-content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 							<button className="swiper2-content__btn explore_b"><span>Explore</span></button>
@@ -45,7 +45,7 @@ const Slider2 = () => {
 				<div className="swiper2__wrapper">
 						<img src={first} className="swiper2__image" alt="flower"/>
 						<div className="swiper2__content swiper2-content">
-							<h2 className="swiper2-content__title">We Have Small And Best O2 Plants Collection’s</h2>
+							<h3 className="swiper2-content__title">We Have Small And Best O2 Plants Collection’s</h3>
 							<p className="swiper2-content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 							<p className="swiper2-content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 							<button className="swiper2-content__btn explore_b"><span>Explore</span></button>
@@ -56,7 +56,7 @@ const Slider2 = () => {
 				<div className="swiper2__wrapper">
 						<img src={first} className="swiper2__image" alt="flower"/>
 						<div className="swiper2__content swiper2-content">
-							<h2 className="swiper2-content__title">We Have Small And Best O2 Plants Collection’s</h2>
+							<h3 className="swiper2-content__title">We Have Small And Best O2 Plants Collection’s</h3>
 							<p className="swiper2-content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 							<p className="swiper2-content__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 							<button className="swiper2-content__btn explore_b"><span>Explore</span></button>

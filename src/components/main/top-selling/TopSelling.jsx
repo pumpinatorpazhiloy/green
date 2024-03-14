@@ -4,6 +4,7 @@ import useFetchData from '../../../hooks/fetchData';
 import cart from "../../../img/header/cart.png"
 
 import './TopSelling.scss'
+
 const TopSelling = () => {
 
 	const [data, setData] = useState([])
@@ -28,7 +29,7 @@ const TopSelling = () => {
 								<h3 className="selling-item__title">{item.name}</h3>
 								<p className="selling-item__p">{item.text}</p>
 								<div className="selling-item__row">
-									<div className="selling-item__price">{item.price}</div>
+									<p className="selling-item__price">{item.price}</p>
 									<button className="selling-item__btn"type="button">
 										<img src={cart} alt="cart"/>
 									</button>

@@ -1,7 +1,5 @@
 import StarRating from "../../starRating/StarRating";
 
-import bg from "../../../img/customer-review/bg.svg";
-
 import './CustomerReview.scss';
 
 const CustomerReview = ({data}) => {
