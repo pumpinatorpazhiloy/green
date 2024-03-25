@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import DropdownMenu from "../dropdownMenu/DropdownMenu";
 import DropdownItem from "../dropdownMenu/DropdownItem";
@@ -32,25 +33,35 @@ const Header = () => {
 			<header className="header">
 				<div className="container">
 					<div className="header__menu menu">
-						<a href="/"className="header__logo">
+						<Link to="/" className="header__logo">
 							<div className="menu__logo"><img src={logo} alt="logo"/></div>
 							<div className="menu__title">Planto.</div>
-						</a>
+						</Link>
 						<DropdownMenu>
-							<DropdownItem item={'Home'}/>
-							<DropdownItem item={'Plants Type'}>
-								<DropDownNest/>
-							</DropdownItem>
-							<DropdownItem item={'More'}/>
-							<DropdownItem item={'Contact'}/>
+							<Link to='/'>
+								<DropdownItem item={'Home'}/>
+							</Link>
+							<Link to='/plants-type'>
+								<DropdownItem item={'Plants Type'}>
+									<DropDownNest/>
+								</DropdownItem>
+							</Link>
+							<Link to="/more">
+								<DropdownItem item={'More'}/>
+							</Link>
+							<Link to='/contact'>
+								<DropdownItem item={'Contact'}/>
+							</Link>
 						</DropdownMenu>
 						<div className="menu__icons icons">
 							<button className="icons__search">
 								<img src={search} alt="search"/>
 							</button>
-							<button className="icons__shoppingCart">
-								<img src={cart} alt="shopping cart"/>
-							</button>
+							<Link to='/cart'>
+								<button className="icons__shoppingCart">
+									<img src={cart} alt="shopping cart"/>
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>

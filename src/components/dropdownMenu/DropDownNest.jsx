@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './DropDowns.scss';
 
 const DropDownNest = () => {
@@ -11,10 +13,18 @@ const DropDownNest = () => {
 	return (
 		<>
 			<div className="dropdown">
-				<DropDownItem>Flowers</DropDownItem>
-				<DropDownItem>Fruits</DropDownItem>
-				<DropDownItem>Aboba</DropDownItem>
-				<DropDownItem>Glek</DropDownItem>
+				<Link to='/flowers'>
+					<DropDownItem>Flowers</DropDownItem>
+				</Link>
+				<Link to='/fruits'>
+					<DropDownItem>Fruits</DropDownItem>
+				</Link>
+				<Link to='/aboba'>
+					<DropDownItem>Aboba</DropDownItem>
+				</Link>
+				<Link to='/glek'>
+					<DropDownItem>Glek</DropDownItem>
+				</Link>
 			</div>
 		</>
 	)
