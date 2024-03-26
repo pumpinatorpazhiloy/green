@@ -1,4 +1,4 @@
 import MainComponent from "./MainComponent";
-import PlantsTypeComponent from "./PlantsTypeComponent";
+import FlowersComponent from "./FlowersComponent";
 
-export {MainComponent, PlantsTypeComponent}
+export {MainComponent, FlowersComponent}

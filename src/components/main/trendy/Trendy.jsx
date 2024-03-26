@@ -1,5 +1,7 @@
 import Table from "../../table/Table";
 
+import { motion } from "framer-motion";
+
 import small from "../../../img/table/1.png"
 import fresh from "../../../img/table/2.png"
 
@@ -10,7 +12,13 @@ const Trendy = () => {
 			<section className="trendy">
 				<div className="container">
 					<div className="trendy__content">
-						<h2 className="trendy__title title-b">Our Trendy plants</h2>
+						<motion.h2 
+							className="trendy__title title-b"
+							initial={{y: 50, opacity: 0}}
+							whileInView={{y: 0, opacity: 1}}
+							transition={{duration: .7}}
+							viewport={{once: true}}
+							>Our Trendy plants</motion.h2>
 						<Table 
 							src={small} 
 							title={'For Small Decs Ai Plat'}

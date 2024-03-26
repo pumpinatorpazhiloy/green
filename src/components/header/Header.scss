@@ -57,8 +57,22 @@
 
 	&__item {
 		transition: all .3s;
+		position: relative;
 		&:hover {
 			opacity: 1;
+		}
+		&:nth-child(2) {
+			&:after {
+				content: '';
+				border: solid #fff;
+				border-width: 0 3px 3px 0;
+				display: inline-block;
+				padding: 3px;
+				top: 25%;
+				right: -20px;
+				position: absolute;
+				transform: rotate(45deg);
+			}
 		}
 	}
 
@@ -106,6 +120,8 @@
 	display: none;
 	@media (max-width: 991px){
 		display: block;
+	}
+	@media (max-width: 768px){
 		top: 50px;
 	}
 }

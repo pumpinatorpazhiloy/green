@@ -1,11 +1,17 @@
 import cart from "../../img/header/cart.png";
+import { motion } from "framer-motion";
 
 import "./Table.scss";
 
 const Table = ({src, title, p, price, clazz}) => {
 	return(
 		<>	
-			<div className={clazz}>
+			<motion.div 
+				className={clazz}
+				initial={{y: 50, opacity: 0}}
+				whileInView={{y: 0, opacity: 1}}
+				transition={{duration: .7}}
+				viewport={{once: true}}>
 				<div className={`${clazz}__content`}>
 					<div className={`${clazz}__image`}>
 						<img src={src} alt="flower image"/>
@@ -24,7 +30,7 @@ const Table = ({src, title, p, price, clazz}) => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</motion.div>
 		</>
 	)
 }

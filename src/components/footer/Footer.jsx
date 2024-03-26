@@ -1,5 +1,7 @@
 import logo from "../../img/header/logo.png";
 
+import { motion } from "framer-motion";
+
 import './Footer.scss'
 
 const Footer = () => {
@@ -7,7 +9,12 @@ const Footer = () => {
 		<>
 			<footer className="footer">
 				<div className="container">
-					<div className="footer__content">
+					<motion.div 
+						className="footer__content"
+						initial={{opacity: 0}}
+						whileInView={{opacity: 1}}
+						transition={{duration: .9}}
+						viewport={{once: true}}>
 						<div className="footer__columns">
 							<div className="footer__column">
 								<div className="footer__logo">
@@ -59,7 +66,7 @@ const Footer = () => {
 								</div>
 							</div>
 						</div>
-					</div>
+					</motion.div>
 				</div>
 			</footer>
 		</>

@@ -1,4 +1,5 @@
 import StarRating from "../../starRating/StarRating";
+import { motion } from "framer-motion";
 
 import './CustomerReview.scss';
 
@@ -8,9 +9,19 @@ const CustomerReview = ({data}) => {
 			<section className="customer-review">
 				<div className="container">
 					<div className="customer-review__content">
-						<h2 className="customer-review__title title-b">Customer Review</h2>
+						<motion.h2 
+							className="customer-review__title title-b"
+							initial={{y: 50, opacity: 0}}
+							whileInView={{y: 0, opacity: 1}}
+							transition={{duration: .7}}
+							viewport={{once: true}}>Customer Review</motion.h2>
 						<div className="customer-review__review review-customer">
-								<div className="review-customer__item">
+								<motion.div 
+									className="review-customer__item"
+									initial={{y: 50, opacity: 0}}
+									whileInView={{y: 0, opacity: 1}}
+									transition={{duration: .7}}
+									viewport={{once: true}}>
 									<div className="review-customer__wrapper">
 										<div className="review-customer__content">
 											<div className="review-customer__img">
@@ -25,7 +36,7 @@ const CustomerReview = ({data}) => {
 										</div>
 										<div className="review-customer__text"><p>{data && data.text}</p></div>
 									</div>
-								</div>
+								</motion.div>
 								<div className="review-customer__item">
 									<div className="review-customer__wrapper">
 										<div className="review-customer__content">

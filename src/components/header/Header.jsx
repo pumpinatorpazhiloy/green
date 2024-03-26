@@ -5,6 +5,7 @@ import DropdownMenu from "../dropdownMenu/DropdownMenu";
 import DropdownItem from "../dropdownMenu/DropdownItem";
 import DropDownNest from "../dropdownMenu/DropDownNest";
 import { slide as Menu } from 'react-burger-menu'
+import { motion } from "framer-motion";
 
 import logo from "../../img/header/logo.png";
 import search from "../../img/header/search.png";
@@ -25,12 +26,16 @@ const Header = () => {
 	return (
 		<>
 			<Menu onStateChange={handleLock} right customBurgerIcon={ <img src={burger} /> }>
-				<a id="home" className="menu-item" href="/">Home</a>
-				<a id="type" className="menu-item" href="/plantsType">Plants Type</a>
-				<a id="more" className="menu-item" href="/more">More</a>
-				<a id="contact" className="menu-item" href="/contact">Contact</a>
+				<Link id="home" className="menu-item" to="/">Home</Link>
+				<Link id="type" className="menu-item" to="/plantsType">Plants Type</Link>
+				<Link id="more" className="menu-item" to="/more">More</Link>
+				<Link id="contact" className="menu-item" to="/contact">Contact</Link>
 			</Menu>
-			<header className="header">
+			<motion.header
+				className="header"
+				initial={{opacity: 0}}
+				animate={{opacity: 1}}
+				transition={{duration: .9}}>
 				<div className="container">
 					<div className="header__menu menu">
 						<Link to="/" className="header__logo">
@@ -41,11 +46,9 @@ const Header = () => {
 							<Link to='/'>
 								<DropdownItem item={'Home'}/>
 							</Link>
-							<Link to='/plants-type'>
-								<DropdownItem item={'Plants Type'}>
-									<DropDownNest/>
-								</DropdownItem>
-							</Link>
+							<DropdownItem item={'Plants Type'}>
+								<DropDownNest/>
+							</DropdownItem>
 							<Link to="/more">
 								<DropdownItem item={'More'}/>
 							</Link>
@@ -65,7 +68,7 @@ const Header = () => {
 						</div>
 					</div>
 				</div>
-			</header>
+			</motion.header>
 		</>
 	);
 };

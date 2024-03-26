@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import useFetchData from '../../../hooks/fetchData';
 
+import { motion } from 'framer-motion';
 import cart from "../../../img/header/cart.png"
 
 import './TopSelling.scss'
@@ -17,9 +18,15 @@ const TopSelling = () => {
 	}
 
 	const renderItems = () => {
-		const items = data.map(item => {
+		const items = data.map((item, i) => {
 			return(
-				<li className="top-selling_item selling-item">
+				<motion.li 
+					className="top-selling__item selling-item"
+					initial={{y: 50, opacity: 0}}
+					whileInView={{y: 0, opacity: 1}}
+					transition={{duration: .4 * i}}
+					viewport={{once: true}}
+					>
 					<div className="selling-item__wrapper">
 						<a href="/">
 							<div className="selling-item__image">
@@ -37,14 +44,13 @@ const TopSelling = () => {
 							</div>
 						</a>
 					</div>
-				</li>
+				</motion.li>
 			)
 		})
 		return items;
 	}
 
 	useEffect(() => {
-		console.log(data);
 		getTopSelling();
 	}, []);
 
@@ -53,7 +59,12 @@ const TopSelling = () => {
 			<section className="top-selling">
 				<div className="container">
 					<div className="top-selling__content">
-						<h2 className="top-selling__title title-b">Our Top Selling</h2>
+						<motion.h2 
+							className="top-selling__title title-b"
+							initial={{y: 50, opacity: 0}}
+							whileInView={{y: 0, opacity: 1}}
+							transition={{duration: .7}}
+							viewport={{once: true}}>Our Top Selling</motion.h2>
 						<div className="top-selling__items">
 							<ul className="top-selling__list">
 								{renderItems()}

@@ -77,7 +77,7 @@
 	"top-selling": [
 		{
 			"id": 1,
-			"image": "./static/image/1.454023ff.png",
+			"image": "./static/image/1.826f629f.png",
 			"name": "Calathea plant",
 			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 			"price": "Rs. 359/-"
@@ -117,7 +117,212 @@
 			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 			"price": "Rs. 359/-"
 		}
-		
+	],
+	"flowers": [
+		{
+			"id": 1,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 2,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 3,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 4,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 5,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 6,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 7,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 8,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 9,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 10,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 11,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 12,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 13,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 14,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 15,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		}
+	],
+	"fruits": [
+		{
+			"id": 1,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 2,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		}
+		,{
+			"id": 3,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		}
+		,{
+			"id": 4,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 5,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 6,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 7,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 8,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 9,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 10,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 11,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 13,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 14,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 15,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		}
 	]
-	
 }

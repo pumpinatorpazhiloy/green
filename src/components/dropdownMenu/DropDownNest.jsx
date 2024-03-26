@@ -19,12 +19,8 @@ const DropDownNest = () => {
 				<Link to='/fruits'>
 					<DropDownItem>Fruits</DropDownItem>
 				</Link>
-				<Link to='/aboba'>
-					<DropDownItem>Aboba</DropDownItem>
-				</Link>
-				<Link to='/glek'>
-					<DropDownItem>Glek</DropDownItem>
-				</Link>
+				<DropDownItem>Aboba</DropDownItem>
+				<DropDownItem>Glek</DropDownItem>
 			</div>
 		</>
 	)
