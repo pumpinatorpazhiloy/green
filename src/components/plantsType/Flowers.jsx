@@ -12,11 +12,6 @@ const Flowers = () => {
 
 	const {fetchFlowers} = useFetchData();
 
-	const getFlowers = async () => {
-		const data = await fetchFlowers();
-		setData(data);
-	}
-
 	const renderItems = () => {
 		const items = data.map((item, i) => {
 			return(
@@ -25,7 +20,8 @@ const Flowers = () => {
 					initial={{y: 50, opacity: 0}}
 					whileInView={{y: 0, opacity: 1}}
 					transition={{duration: .4 * i}}
-					viewport={{once: true}}>
+					viewport={{once: true}}
+					key={item.id}>
 					<div className="flowers-item__wrapper">
 						<a href="/">
 							<div className="flowers-item__image">
@@ -50,7 +46,7 @@ const Flowers = () => {
 	}
 
 	useEffect(() => {
-		getFlowers();
+		fetchFlowers().then(flower => setData(flower));
 	}, []);
 
 	return(

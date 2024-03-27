@@ -1,13 +1,12 @@
 import { useState, useEffect, useRef } from "react";
 
-
 const DropdownItem = ({item, children}) => {
 
 	const [active, setActive] = useState(false);
 
 	let menuRef = useRef();
 
-	useEffect((e) => {
+	useEffect(() => {
 
 		let handler = e => {
 			if(!menuRef.current.contains(e.target)) {
@@ -22,15 +21,10 @@ const DropdownItem = ({item, children}) => {
 		}
 	}, [])
 
-	const handleLock = () => {
-		setLock(!lock)
-		lock ? document.body.classList.add('lock') : document.body.classList.remove('lock') 
-	}
-
 	return (
 		<>
 			<li className="menu__item text" ref={menuRef}>
-				<a href="#" onClick={() => setActive(!active)} className="menu__link">{item}</a>
+				<a onClick={() => setActive(!active)} className="menu__link">{item}</a>
 				{active ? children : null}
 			</li>
 		</>

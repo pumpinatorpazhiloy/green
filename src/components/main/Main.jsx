@@ -23,13 +23,8 @@ const Main = () => {
 		return data[randomIndex];
 	};
 
-	const getReview = async () => {
-		const data = await fetchReviews();
-		setData(data);
-	}
-
 	useEffect(() => {
-		getReview();
+		fetchReviews().then(review => setData(review));
 	}, []);
 
 	return(

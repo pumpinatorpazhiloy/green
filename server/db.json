@@ -118,6 +118,57 @@
 			"price": "Rs. 359/-"
 		}
 	],
+	"all-items": [
+		{
+			"id": 1,
+			"image": "./static/image/1.826f629f.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 2,
+			"image": "./static/image/1.826f629f.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 3,
+			"image": "./static/image/3.38094b91.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 4,
+			"image": "./static/image/3.38094b91.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 5,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 6,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		},
+		{
+			"id": 7,
+			"image": "./static/image/4.91b12808.png",
+			"name": "Calathea plant",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"price": "Rs. 359/-"
+		}
+	],
 	"flowers": [
 		{
 			"id": 1,

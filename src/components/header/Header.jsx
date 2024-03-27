@@ -6,6 +6,7 @@ import DropdownItem from "../dropdownMenu/DropdownItem";
 import DropDownNest from "../dropdownMenu/DropDownNest";
 import { slide as Menu } from 'react-burger-menu'
 import { motion } from "framer-motion";
+import SearchInput from "../searchInput/SearchInput";
 
 import logo from "../../img/header/logo.png";
 import search from "../../img/header/search.png";
@@ -57,9 +58,10 @@ const Header = () => {
 							</Link>
 						</DropdownMenu>
 						<div className="menu__icons icons">
-							<button className="icons__search">
+							{/* <button className="icons__search">
 								<img src={search} alt="search"/>
-							</button>
+							</button> */}
+							<SearchInput/>
 							<Link to='/cart'>
 								<button className="icons__shoppingCart">
 									<img src={cart} alt="shopping cart"/>

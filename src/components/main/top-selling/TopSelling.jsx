@@ -12,10 +12,10 @@ const TopSelling = () => {
 
 	const {fetchTopSelling} = useFetchData();
 
-	const getTopSelling = async () => {
-		const data = await fetchTopSelling();
-		setData(data);
-	}
+	useEffect(() => {
+		fetchTopSelling()
+			.then(item => setData(item));
+	}, []);
 
 	const renderItems = () => {
 		const items = data.map((item, i) => {
@@ -26,6 +26,7 @@ const TopSelling = () => {
 					whileInView={{y: 0, opacity: 1}}
 					transition={{duration: .4 * i}}
 					viewport={{once: true}}
+					key={item.id}
 					>
 					<div className="selling-item__wrapper">
 						<a href="/">
@@ -49,11 +50,7 @@ const TopSelling = () => {
 		})
 		return items;
 	}
-
-	useEffect(() => {
-		getTopSelling();
-	}, []);
-
+	
 	return(
 		<>
 			<section className="top-selling">
