@@ -74,6 +74,7 @@ h6 {
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
+	position: relative;
 	@supports (overflow: clip) {
 		overflow: clip;
 	}
@@ -83,15 +84,21 @@ h6 {
 	> * {
 		min-width: 0;
 	}
-	
-	&:before {
-		content: '';
-		position: absolute;
-		background: url('../src/img/background/bg.png')  center / cover no-repeat;
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	height: 2600px;
+	z-index: -1;
+	img {
 		width: 100%;
-		height: 2600px;
+		height: 100%;
+		position: absolute;
+		object-fit: cover;
 	}
 }
+
 .container {
 	max-width: 1650px;
 	margin: 0 auto;

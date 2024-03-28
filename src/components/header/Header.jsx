@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import DropdownMenu from "../dropdownMenu/DropdownMenu";
@@ -15,13 +15,25 @@ import cart from "../../img/header/cart.png";
 
 import "./Header.scss";
 
+const Button = ({func}) => {
+	return(
+		<button
+			 
+			className="icons__search"
+			onClick={func}>
+			<img src={search} alt="search"/>
+		</button>
+	)
+}
+
 const Header = () => {
 
 	const [lock, setLock] = useState(false);
+	const [open, setOpen] = useState(false);
 
 	const handleLock = () => {
 		setLock(!lock)
-		lock ? document.body.classList.add('lock') : document.body.classList.remove('lock') 
+		lock ? document.body.classList.add('lock') : document.body.classList.remove('lock');
 	}
 
 	return (
@@ -58,10 +70,8 @@ const Header = () => {
 							</Link>
 						</DropdownMenu>
 						<div className="menu__icons icons">
-							{/* <button className="icons__search">
-								<img src={search} alt="search"/>
-							</button> */}
-							<SearchInput/>
+							{open ? <SearchInput func={() => setOpen(false)}/> 
+									: <Button func={() => setOpen(!open)}/>}
 							<Link to='/cart'>
 								<button className="icons__shoppingCart">
 									<img src={cart} alt="shopping cart"/>

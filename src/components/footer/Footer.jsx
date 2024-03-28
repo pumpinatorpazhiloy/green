@@ -56,14 +56,14 @@ const Footer = () => {
 								</div>
 							</div>
 							<div className="footer__column">
-								<div className="footer__email email">
+								<form className="footer__email email" action="submit">
 									<div className="email__title">For Every Update.</div>
 									<div className="email__input">
-										<input placeholder="Enter Email" type="text" />
+										<input name="email" id="email" placeholder="Enter Email" type="text" />
 										<button type="button"><span>SUBSCRIBE</span></button>
 									</div>
 									<p className="email__rights">planto © all right reserve</p>
-								</div>
+								</form>
 							</div>
 						</div>
 					</motion.div>

@@ -23,7 +23,7 @@
 
 .menu {
 	display: grid;
-	grid-template-columns: 10rem auto 112px;
+	grid-template-columns: 10rem auto 7rem;
 	align-items: center;
 	@media (max-width: 991px) {
 		grid-template-columns: 10rem auto 12.5rem;
@@ -82,10 +82,14 @@
 	}
 
 	&__icons {
-		justify-self: start;
+		justify-self: end;
 		img {
 			width: 1.5rem;
 			height: 1.5rem;
+		}
+		@media (max-width: 991px) {
+			justify-self: start;
+			grid-column: 3;
 		}
 	}
 }
@@ -96,15 +100,22 @@
 	@media (max-width: 991px) {
 		justify-content: end;
 		grid-column: 3;
-		
 	}
 	@media (max-width: 768px){
 		gap: 3rem;
 	}
 	&__search {
+		transition: all .3s;
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 
 	&__shoppingCart {
+		transition: all .3s;
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 
 	&__burger {

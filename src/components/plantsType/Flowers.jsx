@@ -55,7 +55,6 @@ const Flowers = () => {
 				<div className="container">
 					<section className="flowers">
 						<div className="flowers__content">
-							<h1 className="flowers__title">Flowers</h1>
 							<div className="flowers__items">
 								<ul className="flowers__list">
 									{renderItems()}

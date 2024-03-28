@@ -1,0 +1,31 @@
+.menu {
+	&__search {
+		display: flex;
+		align-items: center;
+	}
+}
+.search-menu {
+
+	&__content {
+	}
+
+	&__input {
+		border: 1px solid rgba(255, 255, 255, 0.5);
+		padding: 5px 10px 5px 10px;
+		backdrop-filter: blur(20.2px);
+		border-radius: 9.375rem;
+		background: rgba(255, 255, 255, 0.05);
+		color:#fff;
+		&::placeholder {
+			color:#fff;
+			opacity: .75;
+			font-size: 1rem;
+		}
+	}
+
+	&__list {
+	}
+
+	&__item {
+	}
+}

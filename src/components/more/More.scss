@@ -1,0 +1,60 @@
+.more {
+	li {
+		list-style: circle;
+	}
+	&__content {
+	}
+
+	&__text {
+		color:#fff;
+		opacity: .99;
+		font-size: 2rem;
+	}
+
+	&__textWrapper {
+		padding: 6rem 0rem;
+	}
+
+	&__title {
+		color: #fff;
+		opacity: 1;
+		span {
+			color: #fff;
+			opacity: .5;
+		}
+	}
+
+	&__main {
+		opacity: .75;
+		margin-bottom: 2rem;
+	}
+
+	&__mission {
+		opacity: .75;
+		line-height: 150%;
+		margin-bottom: 2rem;
+	}
+
+	&__label {
+		margin-bottom: 2rem;
+	}
+
+	&__team {
+		opacity: .75;
+		line-height: 150%;
+	}
+
+	&__whyUs {
+		color: #fff;
+		opacity: 1;
+		span {
+			color: #fff;
+			opacity: .5;
+		}
+		&_list {
+			opacity: .75;
+			line-height: 150%;
+		}
+	}
+}
+

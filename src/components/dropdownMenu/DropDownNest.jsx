@@ -13,12 +13,10 @@ const DropDownNest = () => {
 	return (
 		<>
 			<div className="dropdown">
-					<Link to='/flowers'>
-						<DropDownItem>Flowers</DropDownItem>
-					</Link>
-					<Link to='/fruits'>
-						<DropDownItem>Fruits</DropDownItem>
-					</Link>
+				<Link to='/flowers'>
+					<DropDownItem>Flowers</DropDownItem>
+				</Link>
+				<DropDownItem>Fruits</DropDownItem>
 				<DropDownItem>Aboba</DropDownItem>
 				<DropDownItem>Glek</DropDownItem>
 			</div>
