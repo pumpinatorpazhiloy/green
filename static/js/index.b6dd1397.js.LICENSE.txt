@@ -1,0 +1,279 @@
+/*! react-burger-menu */
+
+/*! ../dropdownMenu/DropDownNest */
+
+/*! ../../img/slider/4.png */
+
+/*! react-router-dom */
+
+/*! react/jsx-runtime */
+
+/*! framer-motion */
+
+/*! ../../img/contactTable/1.svg */
+
+/*! ../../img/header/cart.png */
+
+/*! ./DropDowns.scss */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! ./best02/Best02 */
+
+/*! swiper/css/scrollbar */
+
+/*! ../dropdownMenu/DropdownMenu */
+
+/*! core-js/modules/esnext.async-iterator.map.js */
+
+/*! ./Slider2.scss */
+
+/*! ../../hooks/fetchData */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! ./Footer.scss */
+
+/*! framer-motion */
+
+/*! react/jsx-runtime */
+
+/*! ../../starRating/StarRating */
+
+/*! react/jsx-runtime */
+
+/*! ./components/header/Header */
+
+/*! swiper/css/pagination */
+
+/*! ../../../img/table/2.png */
+
+/*! swiper/css/scrollbar */
+
+/*! swiper/react */
+
+/*! ./trendy/Trendy */
+
+/*! react/jsx-runtime */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! swiper/modules */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! ./FlowersComponent */
+
+/*! ../../../img/table/1.png */
+
+/*! swiper/css/navigation */
+
+/*! react/jsx-runtime */
+
+/*! ./Trendy.scss */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! ./More.scss */
+
+/*! react */
+
+/*! framer-motion */
+
+/*! ./TopSelling.scss */
+
+/*! framer-motion */
+
+/*! core-js/modules/esnext.iterator.map.js */
+
+/*! ../../img/header/logo.png */
+
+/*! ../../slider/Slider */
+
+/*! framer-motion */
+
+/*! ./App */
+
+/*! ./top-selling/TopSelling */
+
+/*! ./pages */
+
+/*! ../../img/slider/1.png */
+
+/*! ./img/background/bg.png */
+
+/*! ../components/plantsType/Flowers */
+
+/*! react/jsx-runtime */
+
+/*! react-input-mask */
+
+/*! react-dom/client */
+
+/*! ../../img/slider/3.png */
+
+/*! core-js/modules/esnext.async-iterator.map.js */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! ./hero/Hero */
+
+/*! ../../slider2/Slider2 */
+
+/*! ./Table.scss */
+
+/*! ../../img/header/search.png */
+
+/*! core-js/modules/esnext.async-iterator.map.js */
+
+/*! ../../img/header/cart.png */
+
+/*! swiper/css */
+
+/*! framer-motion */
+
+/*! ../components/contacts/Contacts */
+
+/*! core-js/modules/esnext.async-iterator.map.js */
+
+/*! framer-motion */
+
+/*! ./Hero.scss */
+
+/*! ../components/main/Main */
+
+/*! ../../img/contactTable/2.svg */
+
+/*! ./App.scss */
+
+/*! ../dropdownMenu/DropdownItem */
+
+/*! framer-motion */
+
+/*! react */
+
+/*! ./ContactsComponent */
+
+/*! react */
+
+/*! ./Table */
+
+/*! ./Slider.scss */
+
+/*! ./MoreComponent */
+
+/*! react */
+
+/*! framer-motion */
+
+/*! ../../img/header/burger.png */
+
+/*! ../../img/header/logo.png */
+
+/*! react */
+
+/*! framer-motion */
+
+/*! react-router-dom */
+
+/*! ../../hooks/fetchData */
+
+/*! ../../../img/header/cart.png */
+
+/*! core-js/modules/esnext.iterator.map.js */
+
+/*! swiper/css/pagination */
+
+/*! react-router-dom */
+
+/*! react/jsx-runtime */
+
+/*! react/jsx-runtime */
+
+/*! ./customer-review/CustomerReview */
+
+/*! swiper/react */
+
+/*! core-js/modules/esnext.iterator.map.js */
+
+/*! ./Contacts.scss */
+
+/*! ../../starRating/starRating */
+
+/*! react */
+
+/*! ../../../hooks/fetchData */
+
+/*! framer-motion */
+
+/*! core-js/modules/esnext.iterator.map.js */
+
+/*! ./Table.scss */
+
+/*! swiper/modules */
+
+/*! ../components/more/More */
+
+/*! react/jsx-runtime */
+
+/*! ../searchInput/SearchInput */
+
+/*! ./Flowers.scss */
+
+/*! react */
+
+/*! react/jsx-runtime */
+
+/*! ./CustomerReview.scss */
+
+/*! ../../img/slider/1.png */
+
+/*! react/jsx-runtime */
+
+/*! ./components/footer/Footer */
+
+/*! react/jsx-runtime */
+
+/*! framer-motion */
+
+/*! react/jsx-runtime */
+
+/*! ./Main.scss */
+
+/*! ../../../img/hero/playBtn.png */
+
+/*! ./Header.scss */
+
+/*! ../../table/Table */
+
+/*! ../../img/header/cart.png */
+
+/*! ./MainComponent */
+
+/*! ../forms/Forms */
+
+/*! ./Best02.scss */
+
+/*! ./SearchInput.scss */

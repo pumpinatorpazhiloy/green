@@ -1,0 +1,1113 @@
+/*! ../../value/index.mjs */
+
+/*! ../../../value/types/numbers/index.mjs */
+
+/*! ./swiper-core.mjs */
+
+/*! ../../utils/resolve-value.mjs */
+
+/*! ./shared/swiper-core.mjs */
+
+/*! ../../utils/time-conversion.mjs */
+
+/*! ../../value/types/color/hsla.mjs */
+
+/*! ../../../motion/utils/is-forced-motion-value.mjs */
+
+/*! ../Feature.mjs */
+
+/*! ../../context/MotionContext/index.mjs */
+
+/*! ./motion-value.mjs */
+
+/*! ./progress.mjs */
+
+/*! react */
+
+/*! ./waapi/utils/get-final-keyframe.mjs */
+
+/*! ../context/LayoutGroupContext.mjs */
+
+/*! ../../animation/utils/is-animation-controls.mjs */
+
+/*! ../../../value/types/complex/filter.mjs */
+
+/*! ../dom/utils/is-css-variable.mjs */
+
+/*! ./visual-element-target.mjs */
+
+/*! ../geometry/conversion.mjs */
+
+/*! ./number.mjs */
+
+/*! ../../../context/LayoutGroupContext.mjs */
+
+/*! ../../utils/offsets/time.mjs */
+
+/*! ../helpers/utils */
+
+/*! ../../value/types/numbers/units.mjs */
+
+/*! ./create-projection-node.mjs */
+
+/*! ../../../value/types/numbers/index.mjs */
+
+/*! ./animation/index.mjs */
+
+/*! ./definitions.mjs */
+
+/*! ../../../projection/styles/scale-box-shadow.mjs */
+
+/*! ./utils/is-variant-label.mjs */
+
+/*! ../utils/pipe.mjs */
+
+/*! ../utils.mjs */
+
+/*! ../shared/utils.mjs */
+
+/*! ../../html/config-motion.mjs */
+
+/*! ../ease.mjs */
+
+/*! ../../value/index.mjs */
+
+/*! ./utils.mjs */
+
+/*! ./dom/value-types/find.mjs */
+
+/*! ./menus/fallDown */
+
+/*! ../../gestures/pan/index.mjs */
+
+/*! react */
+
+/*! ../helpers/utils */
+
+/*! ../utils/velocity.mjs */
+
+/*! ../../value/use-will-change/is.mjs */
+
+/*! snapsvg-cjs */
+
+/*! ../../../motion/utils/valid-prop.mjs */
+
+/*! ./pagination.mjs */
+
+/*! ../../../value/types/complex/index.mjs */
+
+/*! ./array.mjs */
+
+/*! ./utils/css-variables-conversion.mjs */
+
+/*! ./helpers/dom */
+
+/*! ./utils/filter-props.mjs */
+
+/*! ../../frameloop/sync-time.mjs */
+
+/*! ../../utils/noop.mjs */
+
+/*! ./modifiers/reverse.mjs */
+
+/*! ./value-types/dimensions.mjs */
+
+/*! ../../../utils/errors.mjs */
+
+/*! ./dimensions.mjs */
+
+/*! ./noop.mjs */
+
+/*! ../../utils/use-instant-transition-state.mjs */
+
+/*! ../utils/reduced-motion/index.mjs */
+
+/*! ../geometry/delta-apply.mjs */
+
+/*! ../events/add-dom-event.mjs */
+
+/*! ./render-step.mjs */
+
+/*! ../../../utils/time-conversion.mjs */
+
+/*! ../value/utils/is-motion-value.mjs */
+
+/*! ../generators/spring/index.mjs */
+
+/*! react */
+
+/*! ../../../frameloop/sync-time.mjs */
+
+/*! ../circ.mjs */
+
+/*! ../motion/features/Feature.mjs */
+
+/*! ./hex.mjs */
+
+/*! ../menuFactory */
+
+/*! ../html/utils/transform.mjs */
+
+/*! ../../value/utils/is-motion-value.mjs */
+
+/*! ../../../value/utils/is-motion-value.mjs */
+
+/*! ./add-dom-event.mjs */
+
+/*! ./shared/update-on-virtual-data.mjs */
+
+/*! ./find.mjs */
+
+/*! react-dom */
+
+/*! ../../value/index.mjs */
+
+/*! ./event-info.mjs */
+
+/*! ../../animation/interfaces/motion-value.mjs */
+
+/*! ../../dom/value-types/number.mjs */
+
+/*! ../../utils/use-isomorphic-effect.mjs */
+
+/*! ./layout/MeasureLayout.mjs */
+
+/*! ./DOMKeyframesResolver.mjs */
+
+/*! ../../frameloop/microtask.mjs */
+
+/*! ../utils/is-zero-value-string.mjs */
+
+/*! ../../../utils/mix/number.mjs */
+
+/*! ../motion/features/Feature.mjs */
+
+/*! ./test.mjs */
+
+/*! ./utils/resolve-variants.mjs */
+
+/*! ../../utils/resolve-value.mjs */
+
+/*! ./lib/ReactPropTypesSecret */
+
+/*! ./ssr-window.esm.mjs */
+
+/*! ../../frameloop/frame.mjs */
+
+/*! ../../utils/mix/index.mjs */
+
+/*! ../../value/types/complex/index.mjs */
+
+/*! ../../render/utils/resolve-dynamic-variants.mjs */
+
+/*! ../utils/is-browser.mjs */
+
+/*! ./create-visual-element.mjs */
+
+/*! prop-types */
+
+/*! react */
+
+/*! ../helpers/snapsvgImporter */
+
+/*! ../../../utils/progress.mjs */
+
+/*! ./delta-calc.mjs */
+
+/*! ../../svg/lowercase-elements.mjs */
+
+/*! ../../value/utils/is-motion-value.mjs */
+
+/*! ../utils/is-motion-value.mjs */
+
+/*! ../../context/MotionConfigContext.mjs */
+
+/*! ../geometry/copy.mjs */
+
+/*! ./hsla.mjs */
+
+/*! ../events/event-info.mjs */
+
+/*! ./utils/unit-conversion.mjs */
+
+/*! ./utils/use-motion-ref.mjs */
+
+/*! ../../render/utils/is-variant-label.mjs */
+
+/*! ../dom/DOMVisualElement.mjs */
+
+/*! ../../../value/types/complex/index.mjs */
+
+/*! ../../html/utils/transform.mjs */
+
+/*! ../helpers/snapsvgImporter */
+
+/*! ./transform-origin.mjs */
+
+/*! ./is-svg-component.mjs */
+
+/*! react */
+
+/*! react */
+
+/*! ../../../components/AnimatePresence/use-presence.mjs */
+
+/*! ../../frameloop/frame.mjs */
+
+/*! ./frame.mjs */
+
+/*! ../value/types/complex/index.mjs */
+
+/*! ./utils/camel-case-attrs.mjs */
+
+/*! ../../../value/types/numbers/units.mjs */
+
+/*! ./variant-props.mjs */
+
+/*! ../geometry/delta-remove.mjs */
+
+/*! react */
+
+/*! ./factoryWithThrowingShims */
+
+/*! ../../../utils/is-numerical-string.mjs */
+
+/*! ../../render/utils/KeyframesResolver.mjs */
+
+/*! ../../utils/mix/number.mjs */
+
+/*! ./BaseAnimation.mjs */
+
+/*! ../../render/utils/KeyframesResolver.mjs */
+
+/*! ./resolve-dynamic-variants.mjs */
+
+/*! ../../../value/types/color/index.mjs */
+
+/*! react */
+
+/*! ../../utils/get-context-window.mjs */
+
+/*! ../html/use-props.mjs */
+
+/*! ../../render/utils/is-controlling-variants.mjs */
+
+/*! ../utils/is-ref-object.mjs */
+
+/*! react */
+
+/*! ../generators/keyframes.mjs */
+
+/*! ../../html/utils/build-styles.mjs */
+
+/*! ./rgba.mjs */
+
+/*! ./is-browser.mjs */
+
+/*! ../context/MotionConfigContext.mjs */
+
+/*! ../utils/subscription-manager.mjs */
+
+/*! ../../../projection/geometry/delta-calc.mjs */
+
+/*! ./components/BurgerIcon */
+
+/*! ../svg/use-props.mjs */
+
+/*! ../events/add-pointer-event.mjs */
+
+/*! ./path.mjs */
+
+/*! ../utils/pipe.mjs */
+
+/*! ./build-transform.mjs */
+
+/*! react */
+
+/*! ../utils/noop.mjs */
+
+/*! ../../motion/features/Feature.mjs */
+
+/*! ./layout/MeasureLayout.mjs */
+
+/*! ../../utils/mix/number.mjs */
+
+/*! ./number.mjs */
+
+/*! ./state.mjs */
+
+/*! react */
+
+/*! ../generators/utils/calc-duration.mjs */
+
+/*! ../shared/utils.mjs */
+
+/*! ../../../render/utils/animation-state.mjs */
+
+/*! ../../frameloop/microtask.mjs */
+
+/*! ../../context/PresenceContext.mjs */
+
+/*! ./utils/scrape-motion-values.mjs */
+
+/*! ../../utils/noop.mjs */
+
+/*! ./DocumentProjectionNode.mjs */
+
+/*! ../utils.mjs */
+
+/*! ../../../projection/styles/scale-border-radius.mjs */
+
+/*! ../../value/types/complex/index.mjs */
+
+/*! ./utils/is-svg-tag.mjs */
+
+/*! ../../motion/index.mjs */
+
+/*! ./modifiers/mirror.mjs */
+
+/*! ../../html/utils/scrape-motion-values.mjs */
+
+/*! ./compare-by-depth.mjs */
+
+/*! ../../projection/geometry/conversion.mjs */
+
+/*! ./animation/exit.mjs */
+
+/*! ./batcher.mjs */
+
+/*! ../../value/types/color/index.mjs */
+
+/*! ../../../utils/clamp.mjs */
+
+/*! ./transform.mjs */
+
+/*! ../dom/utils/camel-to-dash.mjs */
+
+/*! ../utils/noop.mjs */
+
+/*! ../../utils/mix/number.mjs */
+
+/*! ./html/utils/transform.mjs */
+
+/*! ./camel-case-attrs.mjs */
+
+/*! ../../value/types/numbers/units.mjs */
+
+/*! react */
+
+/*! ../../../value/types/numbers/index.mjs */
+
+/*! ../context/SwitchLayoutGroupContext.mjs */
+
+/*! ./delta-apply.mjs */
+
+/*! ../frameloop/sync-time.mjs */
+
+/*! ../motion/features/Feature.mjs */
+
+/*! ../generators/inertia.mjs */
+
+/*! ../menuFactory */
+
+/*! ../../frameloop/sync-time.mjs */
+
+/*! ../utils.mjs */
+
+/*! ../../../frameloop/frame.mjs */
+
+/*! ./utils/create-render-state.mjs */
+
+/*! ./utils/create-render-state.mjs */
+
+/*! ./shared/update-swiper.mjs */
+
+/*! ./defaults.mjs */
+
+/*! ./cubic-bezier.mjs */
+
+/*! ../../utils/mix/number.mjs */
+
+/*! ../menuFactory */
+
+/*! ../../utils/array.mjs */
+
+/*! ../../utils/is-ref-object.mjs */
+
+/*! ./noop.mjs */
+
+/*! ../../utils/mix/number.mjs */
+
+/*! ./waapi/utils/get-final-keyframe.mjs */
+
+/*! ./PanSession.mjs */
+
+/*! ../hsla-to-rgba.mjs */
+
+/*! ./rgba.mjs */
+
+/*! ../html/utils/make-none-animatable.mjs */
+
+/*! ../../html/utils/render.mjs */
+
+/*! ../errors.mjs */
+
+/*! react */
+
+/*! ../../value/types/numbers/units.mjs */
+
+/*! ../../html/utils/create-render-state.mjs */
+
+/*! ../menuFactory */
+
+/*! ./components/CrossIcon */
+
+/*! ../../value/utils/is-motion-value.mjs */
+
+/*! ../../motion/features/Feature.mjs */
+
+/*! ../../../projection/styles/scale-correction.mjs */
+
+/*! ../frameloop/sync-time.mjs */
+
+/*! react */
+
+/*! ../../projection/styles/scale-correction.mjs */
+
+/*! ./utils/create-render-state.mjs */
+
+/*! ./create-projection-node.mjs */
+
+/*! ../../../value/types/numbers/index.mjs */
+
+/*! ../pipe.mjs */
+
+/*! ../utils/transitions.mjs */
+
+/*! react */
+
+/*! ../context/MotionContext/index.mjs */
+
+/*! ./utils.mjs */
+
+/*! ../../../easing/utils/is-bezier-definition.mjs */
+
+/*! ./motion-value.mjs */
+
+/*! ../animators/waapi/utils/get-final-keyframe.mjs */
+
+/*! ../utils/transitions.mjs */
+
+/*! ../../value/types/numbers/units.mjs */
+
+/*! ../menuFactory */
+
+/*! ./drag/utils/lock.mjs */
+
+/*! react */
+
+/*! ../../utils/noop.mjs */
+
+/*! ../../render/utils/resolve-dynamic-variants.mjs */
+
+/*! ../../render/utils/flat-tree.mjs */
+
+/*! ./lib/react-input-mask.production.min.js */
+
+/*! ../../utils/memo.mjs */
+
+/*! ../../../utils/clamp.mjs */
+
+/*! ./menus/scaleDown */
+
+/*! ./utils/render.mjs */
+
+/*! ../../projection/utils/each-axis.mjs */
+
+/*! ../../value/types/color/rgba.mjs */
+
+/*! ../styles/scale-correction.mjs */
+
+/*! ./transform.mjs */
+
+/*! ../pan/PanSession.mjs */
+
+/*! ./utils/build-attrs.mjs */
+
+/*! ../../render/html/utils/transform.mjs */
+
+/*! ./utils/KeyframesResolver.mjs */
+
+/*! ../../utils/clamp.mjs */
+
+/*! ../html/use-props.mjs */
+
+/*! ../../dom/utils/camel-to-dash.mjs */
+
+/*! ./utils/lock.mjs */
+
+/*! ../../gestures/press.mjs */
+
+/*! ./utils/is-controlling-variants.mjs */
+
+/*! ./errors.mjs */
+
+/*! ../numbers/units.mjs */
+
+/*! ../../render/utils/setters.mjs */
+
+/*! ../events/add-dom-event.mjs */
+
+/*! ./utils/build-styles.mjs */
+
+/*! ../../../utils/velocity-per-second.mjs */
+
+/*! ../../utils/time-conversion.mjs */
+
+/*! react */
+
+/*! ../../utils/is-ref-object.mjs */
+
+/*! ./menus/slide */
+
+/*! ../../../value/types/numbers/units.mjs */
+
+/*! ../utils/default-transitions.mjs */
+
+/*! ./utils/build-styles.mjs */
+
+/*! ../../utils/distance.mjs */
+
+/*! ../geometry/models.mjs */
+
+/*! react */
+
+/*! ./utils/build-attrs.mjs */
+
+/*! ./ssr-window.esm.mjs */
+
+/*! ../anticipate.mjs */
+
+/*! react */
+
+/*! ../../utils/mix/number.mjs */
+
+/*! ./fill.mjs */
+
+/*! ../../events/event-info.mjs */
+
+/*! ../../value/utils/resolve-motion-value.mjs */
+
+/*! ./render/dom/motion.mjs */
+
+/*! ../../frameloop/frame.mjs */
+
+/*! ../../gestures/focus.mjs */
+
+/*! ../../render/utils/resolve-variants.mjs */
+
+/*! ../color/index.mjs */
+
+/*! ./waapi/easing.mjs */
+
+/*! ../utils.mjs */
+
+/*! ./MainThreadAnimation.mjs */
+
+/*! ../animation/mix-values.mjs */
+
+/*! ./utils/variant-props.mjs */
+
+/*! ../../../frameloop/frame.mjs */
+
+/*! ../../events/add-pointer-event.mjs */
+
+/*! ../../events/event-info.mjs */
+
+/*! ./features/load-features.mjs */
+
+/*! ../../render/html/utils/transform.mjs */
+
+/*! ../../animation/utils/is-keyframes-target.mjs */
+
+/*! ./clamp.mjs */
+
+/*! ../../events/add-pointer-event.mjs */
+
+/*! ../../utils/pipe.mjs */
+
+/*! ../../motion/utils/use-visual-state.mjs */
+
+/*! ../../utils/delay.mjs */
+
+/*! ../../../utils/clamp.mjs */
+
+/*! ../Feature.mjs */
+
+/*! ../../utils/interpolate.mjs */
+
+/*! ../context/LazyContext.mjs */
+
+/*! ./spring/index.mjs */
+
+/*! ../../render/html/utils/transform.mjs */
+
+/*! ../../gestures/hover.mjs */
+
+/*! ../../animation/optimized-appear/data-id.mjs */
+
+/*! ./modifiers/reverse.mjs */
+
+/*! ./type-auto.mjs */
+
+/*! ../../utils/clamp.mjs */
+
+/*! ./utils/render.mjs */
+
+/*! ./resolve-variants.mjs */
+
+/*! ../../../utils/clamp.mjs */
+
+/*! ../../animation/utils/is-none.mjs */
+
+/*! ../../value/use-will-change/is.mjs */
+
+/*! ./utils/motion-values.mjs */
+
+/*! ./store.mjs */
+
+/*! ../../motion/features/drag.mjs */
+
+/*! ../events/add-pointer-event.mjs */
+
+/*! ../../dom/value-types/get-as-type.mjs */
+
+/*! ./is-motion-value.mjs */
+
+/*! ../geometry/utils.mjs */
+
+/*! ../menuFactory */
+
+/*! ../frameloop/frame.mjs */
+
+/*! ../../animation/interfaces/single-value.mjs */
+
+/*! ./utils/is-css-variable.mjs */
+
+/*! ./utils/is-svg-component.mjs */
+
+/*! ./BaseAnimation.mjs */
+
+/*! ./utils/transform.mjs */
+
+/*! ./utils/is-svg-tag.mjs */
+
+/*! ../../../utils/errors.mjs */
+
+/*! ../animators/MainThreadAnimation.mjs */
+
+/*! ./pipe.mjs */
+
+/*! ../../projection/utils/measure.mjs */
+
+/*! ./index.mjs */
+
+/*! ../frameloop/frame.mjs */
+
+/*! ../../projection/geometry/models.mjs */
+
+/*! ../../projection/geometry/delta-calc.mjs */
+
+/*! ../../utils/use-instant-transition-state.mjs */
+
+/*! ../../../utils/time-conversion.mjs */
+
+/*! ../cubic-bezier.mjs */
+
+/*! ../../utils/subscription-manager.mjs */
+
+/*! ../utils/is-numerical-string.mjs */
+
+/*! ./update-swiper.mjs */
+
+/*! ../../utils/errors.mjs */
+
+/*! ../../utils/time-conversion.mjs */
+
+/*! ../dom/value-types/defaults.mjs */
+
+/*! ../../animation/utils/transitions.mjs */
+
+/*! ../shared/classes-to-selector.mjs */
+
+/*! ./observers.mjs */
+
+/*! ../../easing/utils/map.mjs */
+
+/*! ./resolve-dynamic-variants.mjs */
+
+/*! ../geometry/delta-calc.mjs */
+
+/*! ./utils/is-node-or-child.mjs */
+
+/*! ./drivers/driver-frameloop.mjs */
+
+/*! ./number.mjs */
+
+/*! ./utils/symbol.mjs */
+
+/*! ../../context/MotionContext/index.mjs */
+
+/*! ./dom/value-types/animatable-none.mjs */
+
+/*! ../html/HTMLVisualElement.mjs */
+
+/*! ../projection/geometry/models.mjs */
+
+/*! ../menuFactory */
+
+/*! ../context/MotionContext/create.mjs */
+
+/*! ./number.mjs */
+
+/*! ../../utils/GlobalConfig.mjs */
+
+/*! ../../motion/utils/use-visual-state.mjs */
+
+/*! eve */
+
+/*! ../utils/each-axis.mjs */
+
+/*! ./color.mjs */
+
+/*! ./cubic-bezier.mjs */
+
+/*! react */
+
+/*! ./utils/build-attrs.mjs */
+
+/*! ../../projection/node/HTMLProjectionNode.mjs */
+
+/*! ../dom/utils/unit-conversion.mjs */
+
+/*! ../../frameloop/frame.mjs */
+
+/*! ../../utils/progress.mjs */
+
+/*! ../../motion/features/layout.mjs */
+
+/*! ../frameloop/frame.mjs */
+
+/*! ../../context/LazyContext.mjs */
+
+/*! ../../frameloop/frame.mjs */
+
+/*! react */
+
+/*! react-dom */
+
+/*! ./utils/create-render-state.mjs */
+
+/*! ../../utils/array.mjs */
+
+/*! ./is-variant-label.mjs */
+
+/*! ./navigation.mjs */
+
+/*! ./menus/reveal */
+
+/*! ../../render/utils/is-controlling-variants.mjs */
+
+/*! ../shared/create-element-if-not-defined.mjs */
+
+/*! ../../motion/features/animations.mjs */
+
+/*! ../../easing/utils/is-easing-array.mjs */
+
+/*! ./visual-element-target.mjs */
+
+/*! ./utils/create-config.mjs */
+
+/*! ../dom/DOMVisualElement.mjs */
+
+/*! ../../utils/time-conversion.mjs */
+
+/*! ../styles/transform.mjs */
+
+/*! ./utils/is-svg-tag.mjs */
+
+/*! ./menus/scaleRotate */
+
+/*! ../utils/noop.mjs */
+
+/*! ../../context/PresenceContext.mjs */
+
+/*! ../../dom/value-types/animatable-none.mjs */
+
+/*! ../../easing/circ.mjs */
+
+/*! ../value/index.mjs */
+
+/*! ../../../context/SwitchLayoutGroupContext.mjs */
+
+/*! ../utils/subscription-manager.mjs */
+
+/*! ../utils/GlobalConfig.mjs */
+
+/*! ./utils.mjs */
+
+/*! ./mix/index.mjs */
+
+/*! ../../utils/shallow-compare.mjs */
+
+/*! ../../utils/use-constant.mjs */
+
+/*! ../utils.mjs */
+
+/*! ../optimized-appear/data-id.mjs */
+
+/*! ../../motion/utils/is-forced-motion-value.mjs */
+
+/*! ./utils/scrape-motion-values.mjs */
+
+/*! ./utils/render.mjs */
+
+/*! ../../dom/utils/is-css-variable.mjs */
+
+/*! ../../utils/offsets/default.mjs */
+
+/*! ../utils/velocity-per-second.mjs */
+
+/*! ./viewport/index.mjs */
+
+/*! ../../debug/record.mjs */
+
+/*! ./utils.mjs */
+
+/*! ../../projection/geometry/models.mjs */
+
+/*! ./utils/is-svg-component.mjs */
+
+/*! ../../render/dom/DOMKeyframesResolver.mjs */
+
+/*! ./waapi/utils/get-final-keyframe.mjs */
+
+/*! ./VisualElementDragControls.mjs */
+
+/*! react */
+
+/*! ../../svg/config-motion.mjs */
+
+/*! ./helpers/baseStyles */
+
+/*! ../errors.mjs */
+
+/*! ./modifiers/mirror.mjs */
+
+/*! ../../../value/types/numbers/units.mjs */
+
+/*! ./utils/scrape-motion-values.mjs */
+
+/*! ../../../value/types/color/index.mjs */
+
+/*! ../../gestures/drag/index.mjs */
+
+/*! ./motion-proxy.mjs */
+
+/*! ../../../utils/errors.mjs */
+
+/*! ../menuFactory */
+
+/*! ./menus/pushRotate */
+
+/*! ../utils/GlobalConfig.mjs */
+
+/*! ../utils/pipe.mjs */
+
+/*! ../../utils/mix/number.mjs */
+
+/*! ./utils/constraints.mjs */
+
+/*! ../../utils/errors.mjs */
+
+/*! ../../projection/utils/measure.mjs */
+
+/*! ../../../value/types/numbers/units.mjs */
+
+/*! ../animators/AcceleratedAnimation.mjs */
+
+/*! ../../animation/utils/is-animation-controls.mjs */
+
+/*! ./menus/elastic */
+
+/*! ../../value/types/complex/index.mjs */
+
+/*! ./menus/bubble */
+
+/*! ../../../animation/utils/is-animation-controls.mjs */
+
+/*! ./menus/stack */
+
+/*! ../back.mjs */
+
+/*! ../numbers/index.mjs */
+
+/*! ../../utils/noop.mjs */
+
+/*! prop-types */
+
+/*! ./utils/scrape-motion-values.mjs */
+
+/*! ../../context/PresenceContext.mjs */
+
+/*! ./is-css-variable.mjs */
+
+/*! ./index.mjs */
+
+/*! ./menus/push */
+
+/*! ../menuFactory */
+
+/*! ../../value/utils/resolve-motion-value.mjs */
+
+/*! ../../value/utils/is-motion-value.mjs */
+
+/*! ./type-int.mjs */
+
+/*! ../../events/add-dom-event.mjs */
+
+/*! ../../utils/is-animatable.mjs */
+
+/*! ../../render/dom/utils/is-svg-element.mjs */
+
+/*! ./waapi/index.mjs */
+
+/*! ../../render/dom/utils/camel-to-dash.mjs */
+
+/*! ../use-render.mjs */
+
+/*! ./utils/velocity.mjs */
+
+/*! ../../../value/utils/is-motion-value.mjs */
+
+/*! ../animation/utils/is-keyframes-target.mjs */
+
+/*! ./visual-element-variant.mjs */
+
+/*! ../../animation/utils/is-animation-controls.mjs */
+
+/*! ../is-browser.mjs */
+
+/*! ./easing.mjs */
+
+/*! ../mix/number.mjs */
+
+/*! ../../utils/pipe.mjs */
+
+/*! ../../utils/is-zero-value-string.mjs */
+
+/*! ./batcher.mjs */
+
+/*! ../../../value/types/numbers/units.mjs */
+
+/*! ../../motion/features/gestures.mjs */
+
+/*! ./test.mjs */
+
+/*! ../../frameloop/frame.mjs */
+
+/*! ../../projection/node/HTMLProjectionNode.mjs */
+
+/*! ../../events/add-dom-event.mjs */
+
+/*! ./drag/utils/lock.mjs */
+
+/*! ../VisualElement.mjs */
+
+/*! ../../events/add-pointer-event.mjs */
+
+/*! ../geometry/delta-apply.mjs */
+
+/*! ../svg/SVGVisualElement.mjs */
+
+/*! ./utils.mjs */
+
+/*! ./utils/can-animate.mjs */
+
+/*! ../../value/utils/is-motion-value.mjs */
+
+/*! ../utils.mjs */
+
+/*! ../progress.mjs */
+
+/*! ../utils/has-transform.mjs */
+
+/*! ../../easing/ease.mjs */
+
+/*! ../utils/reduced-motion/state.mjs */
+
+/*! ../../render/dom/utils/is-css-variable.mjs */
+
+/*! ./state.mjs */
+
+/*! ./variant-props.mjs */
+
+/*! ../utils.mjs */
+
+/*! ../../value/types/color/hex.mjs */
+
+/*! ../shared/stack.mjs */
+
+/*! ../../html/utils/transform.mjs */
+
+/*! ./utils/is-primary-pointer.mjs */
+
+/*! react */
+
+/*! ../utils/KeyframesResolver.mjs */
+
+/*! ../../utils/noop.mjs */
+
+/*! ./utils.mjs */
+
+/*! ../value/use-will-change/is.mjs */
+
+/*! ../../utils/noop.mjs */
+
+/*! ../../events/utils/is-primary-pointer.mjs */
+
+/*! ../../animation/interfaces/visual-element.mjs */
+
+/*! ./back.mjs */
+
+/*! ../../../projection/node/state.mjs */
+
+/*! ./complex.mjs */
+
+/*! ../menuFactory */
+
+/*! ./is-variant-label.mjs */
+
+/*! ../../../value/types/complex/filter.mjs */
+
+/*! ./utils/use-visual-element.mjs */
+
+/*! ../utils/has-transform.mjs */
+
+/*! ../../frameloop/frame.mjs */
+
+/*! ../../../frameloop/microtask.mjs */
+
+/*! prop-types */
+
+/*! ../Feature.mjs */
+
+/*! ../dom/value-types/defaults.mjs */
+
+/*! ../motion/features/definitions.mjs */
+
+/*! ../numbers/index.mjs */
+
+/*! ../../utils/get-context-window.mjs */
+
+/*! ../shared/create-element-if-not-defined.mjs */
