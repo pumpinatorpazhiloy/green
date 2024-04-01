@@ -7,13 +7,13 @@ import TopSelling from "./top-selling/TopSelling";
 import CustomerReview from "./customer-review/CustomerReview";
 import Best02 from "./best02/Best02";
 
+import {serverData} from "../../../server/db.js"
+
 import './Main.scss'
 
 const Main = () => {
 
 	const [data, setData] = useState([])
-
-	const {fetchReviews} = useFetchData();
 
 	const getRandomData = () => {
 		if (data.length === 0) {
@@ -24,7 +24,7 @@ const Main = () => {
 	};
 
 	useEffect(() => {
-		fetchReviews().then(review => setData(review));
+		setData(serverData[0].reviews)
 	}, []);
 
 	return(

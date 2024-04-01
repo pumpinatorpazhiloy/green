@@ -32,15 +32,15 @@ const useFetchData= () => {
 		 }	
 	},[])
 
-	const fetchAllItems= useMemo(() => async () => {
-		try {
-			const response = await fetch('http://localhost:3001/all-items');
-			const jsonData = await response.json();
-			return jsonData;
-		 } catch (error) {
-			console.error('Error', error);
-		 }	
-	},[])
+	// const fetchAllItems= useMemo(() => async () => {
+	// 	try {
+	// 		const response = await fetch('http://localhost:3001/all-items');
+	// 		const jsonData = await response.json();
+	// 		return jsonData;
+	// 	 } catch (error) {
+	// 		console.error('Error', error);
+	// 	 }	
+	// },[])
 	
 	return {
 		fetchReviews,

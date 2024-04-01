@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 
 import cart from "../../img/header/cart.png"
 
+import {serverData} from "../../../server/db.js";
+
 import "./Flowers.scss"
 
 const Flowers = () => {
 
 	const [data, setData] = useState([])
-
-	const {fetchFlowers} = useFetchData();
 
 	const renderItems = () => {
 		const items = data.map((item, i) => {
@@ -46,7 +46,7 @@ const Flowers = () => {
 	}
 
 	useEffect(() => {
-		fetchFlowers().then(flower => setData(flower));
+		setData(serverData[3].flowers);
 	}, []);
 
 	return(

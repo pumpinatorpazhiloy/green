@@ -4,17 +4,16 @@ import useFetchData from '../../../hooks/fetchData';
 import { motion } from 'framer-motion';
 import cart from "../../../img/header/cart.png"
 
+import { serverData } from '../../../../server/db';
+
 import './TopSelling.scss'
 
 const TopSelling = () => {
 
-	const [data, setData] = useState([])
-
-	const {fetchTopSelling} = useFetchData();
+	const [data, setData] = useState([]);
 
 	useEffect(() => {
-		fetchTopSelling()
-			.then(item => setData(item));
+		setData(serverData[1].topSelling);
 	}, []);
 
 	const renderItems = () => {
