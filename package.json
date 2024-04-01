@@ -7,7 +7,7 @@
     "start": "rsbuild dev",
     "build": "rsbuild build",
     "preview": "rsbuild preview",
-    "server": "json-server -w server/db.json -p 3001",
+    "server": "json-server -w server/db.json -p 3001"
   },
   "dependencies": {
     "framer-motion": "^11.0.21",
