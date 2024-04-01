@@ -1,25 +1,9 @@
-import { useState, useEffect, useRef } from "react";
-import useFetchData from "../../hooks/fetchData";
+import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 
 import "./SearchInput.scss"
 
 const SearchInput = ({func}) => {
-
-	const [allItems, setAllItems] = useState([]);
-	const [itemList, setItemList] = useState(allItems);
-
-	const {fetchAllItems} = useFetchData();
-
-	useEffect(() => {
-		fetchAllItems().then(list => setAllItems(list));
-	}, []);
-
-	const filter = e => {
-		setItemList(allItems.filter(item => {
-			return item.name.toLowerCase().includes(e.target.value.toLowerCase())
-		}))
-	}
 
 	let inputRef = useRef();
 
@@ -51,10 +35,9 @@ const SearchInput = ({func}) => {
 						className="search-menu__input"
 						type="text" 
 						placeholder="Search..."
-						onChange={filter}/>
+						onChange={e => setSearch(e.target.value)}/>
 					<ul className="search-menu__list">
-						{itemList
-							.map(item => (<li key={item.id} className="search-menu__item">{item.name}</li>))}
+						{/* {items} */}
 					</ul>
 				</div>
 			</motion.div>

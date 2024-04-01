@@ -1,7 +1,13 @@
 .top-selling {
 	padding: 6.5rem 0rem 12rem 0rem;
+	@media (max-width: 1100px){
+		padding-bottom: 0rem;
+	}
+	@media (max-width: 1100px){
+		padding-bottom: 4rem;
+	}
 	@media (max-width: 771px){
-		padding: 0rem 0rem 4rem 0rem;
+		padding-bottom: 2rem;
 	}
 	&__content {
 	}

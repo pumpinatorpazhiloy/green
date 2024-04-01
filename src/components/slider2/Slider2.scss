@@ -3,6 +3,21 @@
 	min-width: 100rem;
 	height: 57rem;
 	position: relative;
+	@media (max-width: 1600px){
+		min-width: 90rem;
+		height: 50rem;
+	}
+	@media (max-width: 1500px){
+		min-width: 80rem;
+		height: 45rem;
+	}
+	@media (max-width: 1300px){
+		min-width: 70rem;
+		height: 39rem;
+	}
+	@media (max-width: 1150px){
+		min-width: 60rem;
+	}
 	&:before {
 		content: '';
 		background: url('../../img/slider2/bg.png') center / 1600px 755px no-repeat;
@@ -12,11 +27,35 @@
 		@media (max-width: 1600px){
 			background: url('../../img/slider2/bg.png') center / 1440px 679px no-repeat;
 		}
+		@media (max-width: 1500px){
+			background: url('../../img/slider2/bg.png') center / 1280px 594px no-repeat;
+		}
+		@media (max-width: 1300px){
+			background: url('../../img/slider2/bg.png') center / 1120px 520px no-repeat;
+		}
+		@media (max-width: 1150px){
+			background: url('../../img/slider2/bg.png') center / 960px 455px no-repeat;
+		}
 	}
 	&__wrapper {
 		display: grid;
 		grid-template-columns: 47.5rem minmax(20rem, 47.25rem);
 		min-width: 100rem;
+		@media (max-width: 1600px){
+			min-width: 90rem;
+		}
+		@media (max-width: 1500px){
+			min-width: 80rem;
+			grid-template-columns: 43rem minmax(20rem, 47.25rem);
+		}
+		@media (max-width: 1300px){
+			min-width: 70rem;
+			grid-template-columns: 38rem minmax(20rem, 47.25rem);
+		}
+		@media (max-width: 1150px){
+			min-width: 60rem;
+			grid-template-columns: 33rem minmax(20rem, 47.25rem);
+		}
 	}
 
 	&__content {
@@ -31,6 +70,21 @@
 			width: 700px;
 			height: 729px;
 			transform: translate(60px,-30px);
+		}
+		@media (max-width: 1500px){
+			width: 612px;
+			height: 637px;
+			transform: translate(60px,-30px);
+		}
+		@media (max-width: 1300px){
+			width: 612px;
+			height: 637px;
+			transform: translate(0px,-35px);
+		}
+		@media (max-width: 1300px){
+			width: 530px;
+			height: 557px;
+			transform: translate(-5px,-35px);
 		}
 		img {
 			position: absolute;
@@ -48,12 +102,18 @@
 	flex-direction: column;
 	justify-content: center;
 	max-width: 47.25rem;
+	@media (max-width: 1500px){
+		  padding: 1rem 0rem 1rem 0rem;
+	}
 	&__title {
 		font-weight: 600;
 		font-size: 2.375rem;
 		opacity: .75;
 		padding-bottom: 2.1rem;
 		line-height: 1.3;
+		@media (max-width: 1500px){
+			font-size: 1.8rem;
+		}
 	}
 
 	&__p {
@@ -62,11 +122,17 @@
 		opacity: .75;
 		padding-bottom: 2.1rem;
 		line-height: 1.3;
+		@media (max-width: 1500px){
+			font-size: 1.3rem;
+		}
 	}
 
 	&__btn {
 		opacity: .75;
 		max-width: 13.5625rem;
+		span {
+			font-size: 1.4rem;
+		}
 	}
 }
 .explore {

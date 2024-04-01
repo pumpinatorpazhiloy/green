@@ -40,7 +40,7 @@ const Header = () => {
 		<>
 			<Menu onStateChange={handleLock} right customBurgerIcon={ <img src={burger} /> }>
 				<Link id="home" className="menu-item" to="/">Home</Link>
-				<Link id="type" className="menu-item" to="/plantsType">Plants Type</Link>
+				<Link id="type" className="menu-item" to="/flowers">Plants Type</Link>
 				<Link id="more" className="menu-item" to="/more">More</Link>
 				<Link id="contact" className="menu-item" to="/contact">Contact</Link>
 			</Menu>
